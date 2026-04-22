@@ -11,6 +11,9 @@ export interface LawEntry {
 
 const MUTZ_SCHEME = "mutz://";
 
+const ARTICLE_HEADING_RE = /^### Art\. (\S+)/u;
+const ABBR_RE = /^\*\((.+?)\)\*$/u;
+
 function mdPathToUri(filePath: string): string {
   const rel = relative(config.dataDir, filePath);
   const withoutExt = rel.replace(/\.md$/, "");
@@ -77,11 +80,30 @@ export async function readLawContent(uri: string): Promise<string | null> {
   }
 }
 
-interface SearchResult {
+export interface SearchResult {
   uri: string;
   title: string;
+  abbreviation: string;
+  article: string;
   snippet: string;
   line: number;
+  headingMatch: boolean;
+}
+
+interface RawHit {
+  lineIndex: number;
+  article: string;
+  headingMatch: boolean;
+}
+
+interface MergedGroup {
+  uri: string;
+  title: string;
+  abbreviation: string;
+  startLine: number;
+  endLine: number;
+  article: string;
+  headingMatch: boolean;
 }
 
 function extractSystematicNumber(filePath: string): string {
@@ -96,15 +118,39 @@ export function getSystematicPrefix(sysNum: string): string {
   return match ? match[1] : "";
 }
 
-export async function searchInLaws(
-  query: string,
-  lang?: string,
-  limit = 10,
-  category?: string,
+function extractAbbreviation(lines: string[]): string {
+  for (const line of lines) {
+    const m = line.match(ABBR_RE);
+    if (m) {
+      return m[1];
+    }
+  }
+  return "";
+}
+
+function findArticleAt(lines: string[], hitLine: number): string {
+  for (let i = hitLine; i >= 0; i--) {
+    const m = lines[i].match(ARTICLE_HEADING_RE);
+    if (m) {
+      return `Art. ${m[1]}`;
+    }
+  }
+  return "";
+}
+
+const CONTEXT_LINES = 3;
+
+const SYNONYM_THRESHOLD = 2;
+const SYNONYM_CATEGORIES = new Set(["66"]);
+
+async function searchInEntries(
+  entries: LawEntry[],
+  lowerQuery: string,
+  lang: string | undefined,
+  category: string | undefined,
+  limit: number,
 ): Promise<SearchResult[]> {
-  const entries = await discoverLawFiles();
-  const lowerQuery = query.toLowerCase();
-  const results: SearchResult[] = [];
+  const allHits: { entry: LawEntry; hits: RawHit[]; lines: string[]; abbr: string }[] = [];
 
   for (const entry of entries) {
     if (lang) {
@@ -126,24 +172,131 @@ export async function searchInLaws(
 
     const content = await readFile(entry.path, "utf-8");
     const lines = content.split("\n");
+    const abbr = extractAbbreviation(lines);
+    const hits: RawHit[] = [];
 
     for (let i = 0; i < lines.length; i++) {
       if (lines[i].toLowerCase().includes(lowerQuery)) {
-        const start = Math.max(0, i - 2);
-        const end = Math.min(lines.length, i + 3);
-        const snippet = lines.slice(start, end).join("\n");
+        const article = findArticleAt(lines, i);
+        const headingMatch = ARTICLE_HEADING_RE.test(lines[i]);
+        hits.push({ lineIndex: i, article, headingMatch });
+      }
+    }
 
-        results.push({
+    if (hits.length > 0) {
+      allHits.push({ entry, hits, lines, abbr });
+    }
+  }
+
+  allHits.sort((a, b) => {
+    const aHasHeading = a.hits.some((h) => h.headingMatch) ? 0 : 1;
+    const bHasHeading = b.hits.some((h) => h.headingMatch) ? 0 : 1;
+    return aHasHeading - bHasHeading;
+  });
+
+  const results: SearchResult[] = [];
+
+  for (const { entry, hits, lines, abbr } of allHits) {
+    const groups: MergedGroup[] = [];
+    let current: MergedGroup | null = null;
+
+    for (const hit of hits) {
+      const snippetStart = Math.max(0, hit.lineIndex - CONTEXT_LINES);
+      const snippetEnd = Math.min(lines.length, hit.lineIndex + CONTEXT_LINES + 1);
+
+      if (current && snippetStart <= current.endLine) {
+        current.endLine = Math.max(current.endLine, snippetEnd);
+        current.headingMatch = current.headingMatch || hit.headingMatch;
+        if (!current.article && hit.article) {
+          current.article = hit.article;
+        }
+      } else {
+        current = {
           uri: entry.uri,
           title: entry.title,
-          snippet,
-          line: i + 1,
-        });
+          abbreviation: abbr,
+          startLine: snippetStart,
+          endLine: snippetEnd,
+          article: hit.article,
+          headingMatch: hit.headingMatch,
+        };
+        groups.push(current);
+      }
+    }
 
-        if (results.length >= limit) {
-          return results;
+    for (const group of groups) {
+      const snippet = lines.slice(group.startLine, group.endLine).join("\n");
+      results.push({
+        uri: group.uri,
+        title: group.title,
+        abbreviation: group.abbreviation,
+        article: group.article,
+        snippet,
+        line: group.startLine + 1,
+        headingMatch: group.headingMatch,
+      });
+
+      if (results.length >= limit) {
+        return results;
+      }
+    }
+  }
+
+  return results;
+}
+
+export async function searchInLaws(
+  query: string,
+  lang?: string,
+  limit = 10,
+  category?: string,
+): Promise<SearchResult[]> {
+  const entries = await discoverLawFiles();
+  const lowerQuery = query.toLowerCase();
+
+  const results = await searchInEntries(entries, lowerQuery, lang, category, limit);
+
+  if (results.length <= SYNONYM_THRESHOLD && (!category || SYNONYM_CATEGORIES.has(category))) {
+    try {
+      const { fetchSynonyms } = await import("../thesaurus/openthesaurus.js");
+      const words = query.split(/[\s,;.]+/).filter((w) => w.length >= 3);
+      const allSynonyms: string[] = [];
+
+      for (const word of words) {
+        try {
+          const synonyms = await fetchSynonyms(word);
+          allSynonyms.push(...synonyms);
+        } catch {
+          continue;
         }
       }
+
+      const seenUris = new Set(results.map((r) => r.uri));
+      const remainingLimit = limit - results.length;
+
+      if (allSynonyms.length > 0 && remainingLimit > 0) {
+        for (const synonym of allSynonyms) {
+          if (results.length >= limit) break;
+
+          const synonymResults = await searchInEntries(
+            entries,
+            synonym.toLowerCase(),
+            lang,
+            category,
+            remainingLimit,
+          );
+
+          for (const r of synonymResults) {
+            if (!seenUris.has(r.uri)) {
+              seenUris.add(r.uri);
+              results.push(r);
+              if (results.length >= limit) break;
+            }
+          }
+        }
+      }
+    } catch {
+      // Synonym expansion is best-effort; never fail the main search
     }
   }
 

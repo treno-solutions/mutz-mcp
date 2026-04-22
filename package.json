@@ -1,7 +1,7 @@
 {
   "name": "mutz-mcp",
   "version": "0.1.0",
-  "description": "MCP server exposing Bern canton tax law texts as searchable resources",
+  "description": "MCP server for Bern canton law texts and Swiss chart of accounts (KMU) — searchable, bilingual, with synonym expansion",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -29,7 +29,11 @@
     "bern",
     "tax",
     "steuer",
-    "switzerland"
+    "kontenplan",
+    "switzerland",
+    "swiss",
+    "accounting",
+    "law"
   ],
   "author": "treno.solutions GmbH",
   "license": "MIT",

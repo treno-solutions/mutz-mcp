@@ -69,8 +69,14 @@ export function registerLawTools(server: McpServer): void {
 
         const text = results
           .map(
-            (r) =>
-              `## ${r.title}\nURI: ${r.uri}\n${labels.line(r.line)}\n\n\`\`\`\n${r.snippet}\n\`\`\``,
+            (r) => {
+              const heading = r.abbreviation
+                ? `${r.title} (${r.abbreviation})`
+                : r.title;
+              const articleTag = r.article || "";
+              const location = [articleTag, `URI: ${r.uri}`].filter(Boolean).join(" | ");
+              return `## ${heading}\n${location}\n\n\`\`\`\n${r.snippet}\n\`\`\``;
+            },
           )
           .join("\n\n---\n\n");
 

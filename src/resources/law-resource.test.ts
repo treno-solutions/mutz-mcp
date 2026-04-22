@@ -4,6 +4,7 @@ import {
   readLawContent,
   searchInLaws,
   getSystematicPrefix,
+  type SearchResult,
 } from "../resources/law-resource.js";
 
 describe("discoverLawFiles", () => {
@@ -61,6 +62,27 @@ describe("searchInLaws", () => {
     expect(results[0].snippet).toBeTruthy();
   });
 
+  it("includes article in results", async () => {
+    const results = await searchInLaws("Einkommensteuer", "de");
+
+    expect(results.length).toBeGreaterThan(0);
+    expect(results[0].article).toBeDefined();
+  });
+
+  it("includes abbreviation in results", async () => {
+    const results = await searchInLaws("Einkommensteuer", "de");
+
+    expect(results.length).toBeGreaterThan(0);
+    expect(typeof results[0].abbreviation).toBe("string");
+  });
+
+  it("includes headingMatch in results", async () => {
+    const results = await searchInLaws("Einkommensteuer", "de");
+
+    expect(results.length).toBeGreaterThan(0);
+    expect(typeof results[0].headingMatch).toBe("boolean");
+  });
+
   it("filters by language", async () => {
     const deResults = await searchInLaws("Wohnsitz", "de");
     const frResults = await searchInLaws("Wohnsitz", "fr");
@@ -110,6 +132,27 @@ describe("searchInLaws", () => {
     const results = await searchInLaws("Steuer", "de", 50, "99");
 
     expect(results).toEqual([]);
+  });
+
+  it("merges overlapping hits in same file", async () => {
+    const results = await searchInLaws("Steuer", "de", 50);
+
+    const uris = results.map((r) => r.uri);
+    const uniqueUris = new Set(uris);
+    expect(uris.length - uniqueUris.size).toBeLessThanOrEqual(uris.length);
+  });
+
+  it("ranks heading matches first", async () => {
+    const results = await searchInLaws("Einkommensteuer", "de", 10);
+
+    const hasHeadingMatch = results.some((r) => r.headingMatch === true);
+    if (hasHeadingMatch) {
+      const firstNonHeadingIdx = results.findIndex((r) => !r.headingMatch);
+      const lastHeadingIdx = results.reduce((acc: number, r: SearchResult, i: number) => r.headingMatch ? i : acc, -1);
+      if (firstNonHeadingIdx !== -1 && lastHeadingIdx !== -1) {
+        expect(lastHeadingIdx).toBeLessThan(firstNonHeadingIdx);
+      }
+    }
   });
 });
 

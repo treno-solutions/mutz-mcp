@@ -92,7 +92,7 @@ export function registerKontenplanTools(server: McpServer): void {
             suffixParts.push(labels.income);
           }
           const suffixStr = suffixParts.length > 0 ? ` [${suffixParts.join(", ")}]` : "";
-          return `- **${a.nr}** ${name} (${areaLabel}) — ${hierarchy}${suffixStr}`;
+          return `- **${a.nr}** ${name} (${areaLabel}) — ${hierarchy}${suffixStr} | *Schweizer Kontenplan KMU*`;
         });
 
         return {

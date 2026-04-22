@@ -20,14 +20,14 @@ export async function loadKontenplan(): Promise<Kontenplan> {
   }
 }
 
-export async function searchKontenplan(
-  query: string,
-  lang?: string,
-  area?: string,
-  limit = 20,
-): Promise<KontenplanAccount[]> {
-  const plan = await loadKontenplan();
-  const lowerQuery = query.toLowerCase();
+const SYNONYM_THRESHOLD = 2;
+
+function searchInPlan(
+  plan: Kontenplan,
+  lowerQuery: string,
+  area: string | undefined,
+  limit: number,
+): KontenplanAccount[] {
   const results: KontenplanAccount[] = [];
 
   for (const account of plan.accounts) {
@@ -47,6 +47,55 @@ export async function searchKontenplan(
 
     if (searchableText.includes(lowerQuery)) {
       results.push(account);
+    }
+  }
+
+  return results;
+}
+
+export async function searchKontenplan(
+  query: string,
+  lang?: string,
+  area?: string,
+  limit = 20,
+): Promise<KontenplanAccount[]> {
+  const plan = await loadKontenplan();
+  const lowerQuery = query.toLowerCase();
+
+  const results = searchInPlan(plan, lowerQuery, area, limit);
+
+  if (results.length <= SYNONYM_THRESHOLD) {
+    try {
+      const { fetchSynonyms } = await import("../thesaurus/openthesaurus.js");
+      const words = query.split(/[\s,;.]+/).filter((w) => w.length >= 3);
+      const seenNrs = new Set(results.map((r) => r.nr));
+
+      for (const word of words) {
+        if (results.length >= limit) break;
+
+        let synonyms: string[];
+        try {
+          synonyms = await fetchSynonyms(word);
+        } catch {
+          continue;
+        }
+
+        for (const synonym of synonyms) {
+          if (results.length >= limit) break;
+
+          const synonymResults = searchInPlan(plan, synonym.toLowerCase(), area, limit - results.length);
+
+          for (const r of synonymResults) {
+            if (!seenNrs.has(r.nr)) {
+              seenNrs.add(r.nr);
+              results.push(r);
+              if (results.length >= limit) break;
+            }
+          }
+        }
+      }
+    } catch {
+      // Synonym expansion is best-effort; never fail the main search
     }
   }
 
