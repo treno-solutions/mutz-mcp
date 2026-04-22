@@ -32,7 +32,7 @@ export function registerResources(server: McpServer): void {
 
   server.registerResource(
     "mutz-law",
-    new ResourceTemplate("mutz://{path}", { list: undefined }),
+    new ResourceTemplate("mutz://{+path}", { list: undefined }),
     {
       title: "Gesetzestext",
       description: "Ein einzelner Gesetzestext nach Pfad (z.B. de/steuergesetz/einkommensteuer)",
@@ -66,29 +66,4 @@ export function registerResources(server: McpServer): void {
     },
   );
 
-  void discoverLawFiles().then((entries) => {
-    for (const entry of entries) {
-      server.registerResource(
-        entry.uri.replace("mutz://", "").replace(/\//g, "-"),
-        entry.uri,
-        {
-          title: entry.title,
-          description: entry.description,
-          mimeType: "text/markdown",
-        },
-        async (uri) => {
-          const content = await readLawContent(entry.uri);
-          return {
-            contents: [
-              {
-                uri: uri.href,
-                mimeType: "text/markdown",
-                text: content ?? `# Nicht gefunden\n\nGesetzestext unter \`${entry.uri}\` konnte nicht gefunden werden.`,
-              },
-            ],
-          };
-        },
-      );
-    }
-  });
 }

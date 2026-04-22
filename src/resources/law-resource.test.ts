@@ -3,6 +3,7 @@ import {
   discoverLawFiles,
   readLawContent,
   searchInLaws,
+  getSystematicPrefix,
 } from "../resources/law-resource.js";
 
 describe("discoverLawFiles", () => {
@@ -96,5 +97,36 @@ describe("searchInLaws", () => {
     const lowerResults = await searchInLaws("wohnsitz");
 
     expect(upperResults.length).toBe(lowerResults.length);
+  });
+
+  it("filters by category when category is provided", async () => {
+    const allResults = await searchInLaws("Steuer", "de", 50);
+    const filteredResults = await searchInLaws("Steuer", "de", 50, "66");
+
+    expect(filteredResults.length).toBeLessThanOrEqual(allResults.length);
+  });
+
+  it("category filter with non-matching prefix returns empty for non-matching files", async () => {
+    const results = await searchInLaws("Steuer", "de", 50, "99");
+
+    expect(results).toEqual([]);
+  });
+});
+
+describe("getSystematicPrefix", () => {
+  it("extracts numeric prefix from systematic number", () => {
+    expect(getSystematicPrefix("661.11")).toBe("661");
+  });
+
+  it("handles simple numbers", () => {
+    expect(getSystematicPrefix("101")).toBe("101");
+  });
+
+  it("returns empty string for non-numeric input", () => {
+    expect(getSystematicPrefix("abc")).toBe("");
+  });
+
+  it("handles dash-suffixed numbers", () => {
+    expect(getSystematicPrefix("721.2-1")).toBe("721");
   });
 });

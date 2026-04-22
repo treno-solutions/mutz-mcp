@@ -1,0 +1,5019 @@
+{
+  "accounts": [
+    {
+      "nr": "1000",
+      "name": {
+        "de": "Kasse",
+        "fr": "Caisse"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Kasse"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Caisse"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1005",
+      "name": {
+        "de": "Kasse EUR",
+        "fr": "Caisse EUR"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Kasse"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Caisse"
+        ]
+      },
+      "currency": "EUR",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1010",
+      "name": {
+        "de": "Postcheck",
+        "fr": "Postcheck"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Bankguthaben"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Avoirs en banque"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1020",
+      "name": {
+        "de": "Kontokorrent",
+        "fr": "Compte courant"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Bankguthaben"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Avoirs en banque"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1024",
+      "name": {
+        "de": "Kontokorrent EUR",
+        "fr": "Compte courant EUR"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Bankguthaben"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Avoirs en banque"
+        ]
+      },
+      "currency": "EUR",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1025",
+      "name": {
+        "de": "Kontokorrent USD",
+        "fr": "Compte courant USD"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Bankguthaben"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Avoirs en banque"
+        ]
+      },
+      "currency": "USD",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1045",
+      "name": {
+        "de": "Kreditkarten / Debitkarten",
+        "fr": "Cartes de crédit / cartes de débit"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Checks, Besitzwechsel (diskontfähig), Kreditkarten / Debitkarten"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Chèques, effets à recevoir (pouvant être remis à l'escompte)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1050",
+      "name": {
+        "de": "Festgeldanlagen",
+        "fr": "Placements à terme"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Kurzfristige Geldanlagen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Avoirs à court terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1090",
+      "name": {
+        "de": "Transferkonto",
+        "fr": "Comptes d'attente"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Transferkonto"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Comptes d'attente"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1091",
+      "name": {
+        "de": "Lohndurchlaufkonto",
+        "fr": "Compte d'attente pour salaires"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Transferkonto"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Comptes d'attente"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1099",
+      "name": {
+        "de": "Abklärungskonto",
+        "fr": "Compte de clarification"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Flüssige Mittel",
+          "Transferkonto"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Liquidités",
+          "Comptes d'attente"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1060",
+      "name": {
+        "de": "Wertschriften",
+        "fr": "Titres"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Kurzfristig gehaltene Aktiven mit Börsenkurs",
+          "Wertschriften kurzfristig gehalten"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Avoirs à court terme cotés en bourse",
+          "Titres à court terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1100",
+      "name": {
+        "de": "Forderungen Schweiz",
+        "fr": "Créances suisse"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Forderungen aus Lieferungen und Leistungen",
+          "Forderungen aus Lieferungen und Leistungen gegenüber Dritten (Debitoren)"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Créances résultant de livraisons et prestations",
+          "Créances résultant de livraisons et de prestations de services envers des tiers (débiteurs-clients)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1109",
+      "name": {
+        "de": "Wertberichtigungen Forderungen aus Lieferungen und Leistungen",
+        "fr": "Ajustement de la valeur des livraisons et de prestations de services"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Forderungen aus Lieferungen und Leistungen",
+          "Forderungen aus Lieferungen und Leistungen gegenüber Dritten (Debitoren)"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Créances résultant de livraisons et prestations",
+          "Créances résultant de livraisons et de prestations de services envers des tiers (débiteurs-clients)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1140",
+      "name": {
+        "de": "Darlehen",
+        "fr": "Prêts"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Übrige kurzfristige Forderungen gegenüber Dritten"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Autres créances à court terme envers de tiers"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1170",
+      "name": {
+        "de": "Vorsteuer Material, Waren, Dienstleistungen, Energie, Kl. 4",
+        "fr": "Impôt préalable: TVA s/matériel, marchandises, prestations et énergie"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1171",
+      "name": {
+        "de": "Vorsteuer Investitionen, übriger Betriebsaufwand, Kl. 1/5-8",
+        "fr": "Impôt préalable: TVA s/investissements et autres charges d'exploitation"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1172",
+      "name": {
+        "de": "Vorsteuerausgleich Abrechnungsmethode",
+        "fr": "Réconciliation de l'impôt préalable lors de changement de méthode"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1173",
+      "name": {
+        "de": "Vorsteuerkürzung",
+        "fr": "Réduction de l'impôt préalable"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1176",
+      "name": {
+        "de": "Verrechnungssteuer",
+        "fr": "Impôt anticipé à récupérer"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1177",
+      "name": {
+        "de": "Forderungen gegenüber Oberzolldirektion",
+        "fr": "Créances envers l'administration des douanes"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1178",
+      "name": {
+        "de": "Direkte Steuern",
+        "fr": "Direkte Steuern"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1179",
+      "name": {
+        "de": "Quellensteuer",
+        "fr": "Quellensteuer"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1180",
+      "name": {
+        "de": "Kontokorrent AHV, IV, EO, ALV",
+        "fr": "Compte courant AVS, AI, APG, AC"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber Sozialversicherungen und Vorsorgeeinrichtungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers les assurances sociales et les institutions de prévoyance prof."
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1181",
+      "name": {
+        "de": "Kontokorrent FAK",
+        "fr": "Compte courant Caisse d'Allocations Familiales (CAF)"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber Sozialversicherungen und Vorsorgeeinrichtungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers les assurances sociales et les institutions de prévoyance prof."
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1182",
+      "name": {
+        "de": "Kontokorrent Vorsorgeeinrichtung",
+        "fr": "Compte courant institutions de prévoyance professionelle"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber Sozialversicherungen und Vorsorgeeinrichtungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers les assurances sociales et les institutions de prévoyance prof."
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1183",
+      "name": {
+        "de": "Kontokorrent Unfallversicherung",
+        "fr": "Compte courant assurance-accident"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber Sozialversicherungen und Vorsorgeeinrichtungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers les assurances sociales et les institutions de prévoyance prof."
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1184",
+      "name": {
+        "de": "Kontokorrent Krankentaggeldversicherung",
+        "fr": "Compte courant assurance maladie (indemnité journalière maladie)"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Kurzfristige Forderungen gegenüber Sozialversicherungen und Vorsorgeeinrichtungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Créances à court terme envers les assurances sociales et les institutions de prévoyance prof."
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1191",
+      "name": {
+        "de": "Kautionen",
+        "fr": "Cautionnements"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Sonstige kurzfristige Forderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Autres créances à court terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1192",
+      "name": {
+        "de": "Geleistete Anzahlungen",
+        "fr": "Acomptes payés"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Sonstige kurzfristige Forderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Autres créances à court terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": true
+    },
+    {
+      "nr": "1193",
+      "name": {
+        "de": "Mietzinsdepot",
+        "fr": "Dépôt de garantie de loyer"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Übrige kurzfristige Forderungen",
+          "Sonstige kurzfristige Forderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Autres créances à court terme",
+          "Autres créances à court terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1200",
+      "name": {
+        "de": "Vorräte",
+        "fr": "Réserves"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Vorräte und nicht fakturierte Dienstleistungen",
+          "Handelswaren"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Stocks et prestations non facturées",
+          "Marchandises commerciales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": true
+    },
+    {
+      "nr": "1207",
+      "name": {
+        "de": "Bestandesänderungen Handelswaren",
+        "fr": "Variation des stocks de marchandises"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Vorräte und nicht fakturierte Dienstleistungen",
+          "Handelswaren"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Stocks et prestations non facturées",
+          "Marchandises commerciales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1270",
+      "name": {
+        "de": "Unfertige Erzeugnisse",
+        "fr": "Stocks de produits semi-ouvrés"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Vorräte und nicht fakturierte Dienstleistungen",
+          "Unfertige Erzeugnisse"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Stocks et prestations non facturées",
+          "Stocks de produits semi-ouvrés"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": true
+    },
+    {
+      "nr": "1280",
+      "name": {
+        "de": "Nicht fakturierte Dienstleistungen",
+        "fr": "Travaux en cours"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Vorräte und nicht fakturierte Dienstleistungen",
+          "Nicht fakturierte Dienstleistungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Stocks et prestations non facturées",
+          "Travaux en cours"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": true
+    },
+    {
+      "nr": "1300",
+      "name": {
+        "de": "Bezahlter Aufwand des Folgejahrs",
+        "fr": "Charges payées d'avance"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Umlaufvermögen",
+          "Aktive Rechnungsabgrenzungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs circulants",
+          "Compte de régularisation de l'actif (actifs transitoires)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1400",
+      "name": {
+        "de": "Wertschriften des Anlagevermögens",
+        "fr": "Financiers sur titres"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Finanzanlagen",
+          "Wertschriften des Anlagevermögens"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations financières",
+          "Titres à long terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1440",
+      "name": {
+        "de": "Darlehen",
+        "fr": "Prêts"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Finanzanlagen",
+          "Langfristige Forderungen gegenüber Dritten"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations financières",
+          "Créances à long terme envers de tiers"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1480",
+      "name": {
+        "de": "Beteiligungen",
+        "fr": "Participations"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Beteiligungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Participations"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1500",
+      "name": {
+        "de": "Maschinen und Apparate",
+        "fr": "Machines et appareils"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Mobile Sachanlagen",
+          "Maschinen und Apparate"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations corporelles meubles",
+          "Machines et appareils"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": true
+    },
+    {
+      "nr": "1510",
+      "name": {
+        "de": "Mobiliar und Einrichtungen",
+        "fr": "Mobilier d'exploitation"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Mobile Sachanlagen",
+          "Mobiliar und Einrichtungen"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations corporelles meubles",
+          "Mobilier et installations"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": true
+    },
+    {
+      "nr": "1521",
+      "name": {
+        "de": "Informatik",
+        "fr": "Informatique"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Mobile Sachanlagen",
+          "Büromaschinen, Informatik und Kommunikationstechnologie"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations corporelles meubles",
+          "Machines de bureau, informatique, système de communication"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1530",
+      "name": {
+        "de": "Fahrzeuge",
+        "fr": "Véhicules"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Mobile Sachanlagen",
+          "Fahrzeuge"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations corporelles meubles",
+          "Véhicules"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1600",
+      "name": {
+        "de": "Liegenschaften",
+        "fr": "Immeubles"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Immobile Sachanlagen",
+          "Geschäftsliegenschaften"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations corporelles immeubles",
+          "Immeubles d'exploitation"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1607",
+      "name": {
+        "de": "Umbau Liegenschaften",
+        "fr": "Transformation des immeubles"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Immobile Sachanlagen",
+          "Geschäftsliegenschaften"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations corporelles immeubles",
+          "Immeubles d'exploitation"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1700",
+      "name": {
+        "de": "Patente",
+        "fr": "Brevets"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Immaterielle Werte",
+          "Patente, Know-how, Rezepte"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations incorporelles",
+          "Brevets, know-how, processus de fabrication"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1770",
+      "name": {
+        "de": "Goodwill",
+        "fr": "Goodwill"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Immaterielle Werte",
+          "Goodwill"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Immobilisations incorporelles",
+          "Goodwill"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "1850",
+      "name": {
+        "de": "Nicht einbezahltes Grundkapital",
+        "fr": "Capital-actions non libéré"
+      },
+      "area": "A",
+      "group": {
+        "de": [
+          "Standard",
+          "Aktiven",
+          "Aktiven",
+          "Anlagevermögen",
+          "Nicht einbezahltes Grund-,Gesellschafter- oder Stiftungskapital"
+        ],
+        "fr": [
+          "Classification",
+          "Actifs",
+          "Actifs",
+          "Actifs immobilisés",
+          "Capital non libéré: capital social, capital de fondation"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2000",
+      "name": {
+        "de": "Verbindlichkeiten aus Lieferungen und Leistungen",
+        "fr": "Dettes résultant d'achats et de prestations de services"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Verbindlichkeiten aus Lieferungen und Leistungen",
+          "Verbindlichkeiten aus Lieferungen und Leistungen gegenüber Dritten (Kreditoren)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Dettes à court terme résultant d'achats et de prestations de services",
+          "Dettes résultant d'achats et de prestations de services de tiers (créanciers-fournisseurs)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2030",
+      "name": {
+        "de": "Anzahlungen von Dritten",
+        "fr": "Acomptes de tiers"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Verbindlichkeiten aus Lieferungen und Leistungen",
+          "Anzahlungen von Dritten"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Dettes à court terme résultant d'achats et de prestations de services",
+          "Acompte de tiers"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2100",
+      "name": {
+        "de": "Kontokorrent A",
+        "fr": "Compte courant A"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Kurzfristige verzinsliche Verbindlichkeiten",
+          "Bankverbindlichkeiten kurzfristig"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Dettes financières à court terme rémunérées",
+          "Dettes bancaires à court terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2200",
+      "name": {
+        "de": "Umsatzsteuer",
+        "fr": "TVA due"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Kurzfristige Verbindlichkeiten gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2201",
+      "name": {
+        "de": "Abrechnungskonto MWST",
+        "fr": "Décompte TVA"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Kurzfristige Verbindlichkeiten gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2202",
+      "name": {
+        "de": "Umsatzsteuerausgleich Abrechnungsmethode",
+        "fr": "Réconciliation du chiffre d'affaires suite à un changement de méthode"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Kurzfristige Verbindlichkeiten gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2208",
+      "name": {
+        "de": "Direkte Steuern",
+        "fr": "Impôts directs"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Kurzfristige Verbindlichkeiten gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2209",
+      "name": {
+        "de": "Quellensteuer",
+        "fr": "Impet e la source"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Kurzfristige Verbindlichkeiten gegenüber staatlichen Stellen"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme envers des institutions publiques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2210",
+      "name": {
+        "de": "Verbindlichkeiten gegenüber Dritten",
+        "fr": "Autres dettes envers des tiers"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Übrige kurzfristige Verbindlichkeiten gegenüber Dritten (unverzinslich)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme envers des tiers (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2260",
+      "name": {
+        "de": "Verbindlichkeiten gegenüber beteiligter Person A",
+        "fr": "Dettes envers la personne impliquee A"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Übrige kurzfristige Verbindlichkeiten gegenüber Nahestehenden (unverzinslich)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes financières à court terme envers les parties prenantes et les organes (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2269",
+      "name": {
+        "de": "Beschlossene Ausschüttungen",
+        "fr": "Dividendes"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Übrige kurzfristige Verbindlichkeiten gegenüber Nahestehenden (unverzinslich)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes financières à court terme envers les parties prenantes et les organes (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2270",
+      "name": {
+        "de": "Kontokorrent AHV, IV, EO, ALV, FAK",
+        "fr": "Compte couran AHV, IV, EO, ALV, FAK"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Übrige kurzfristige Verbindlichkeiten gegenüber Sozialversicherungen&Vorsorgeeinrichtungen (unverz.)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme relatives aux charges salariales (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2272",
+      "name": {
+        "de": "Kontokorrent Vorsorgeeinrichtung",
+        "fr": "Compte courant institutions de prevoyance"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Übrige kurzfristige Verbindlichkeiten gegenüber Sozialversicherungen&Vorsorgeeinrichtungen (unverz.)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme relatives aux charges salariales (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2273",
+      "name": {
+        "de": "Kontokorrent Unfallversicherung",
+        "fr": "Compte courant assurance-accident"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Übrige kurzfristige Verbindlichkeiten gegenüber Sozialversicherungen&Vorsorgeeinrichtungen (unverz.)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme relatives aux charges salariales (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2274",
+      "name": {
+        "de": "Kontokorrent Krankentaggeldversicherung",
+        "fr": "Compte courant assurance maladie (indemnité journalière maladie)"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Übrige kurzfristige Verbindlichkeiten",
+          "Übrige kurzfristige Verbindlichkeiten gegenüber Sozialversicherungen&Vorsorgeeinrichtungen (unverz.)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Autres dettes à court terme",
+          "Autres dettes à court terme relatives aux charges salariales (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2300",
+      "name": {
+        "de": "Passive Rechnungsabgrenzungen",
+        "fr": "Passifs de régularisation (passifs transitoires)"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Kurzfristiges Fremdkapital",
+          "Passive Rechnungsabgrenzungen und kurzfristige Rückstellungen",
+          "Passive Rechnungsabgrenzungen"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à court terme",
+          "Passifs de régularisation (passifs transitoires) et provisions à court terme",
+          "Passifs de régularisation (passifs transitoires)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2400",
+      "name": {
+        "de": "Darlehen A",
+        "fr": "Emprunts A"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Langfristiges Fremdkapital",
+          "Langfristige verzinsliche Verbindlichkeiten",
+          "Bankverbindlichkeiten langfristig"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à long terme",
+          "Dettes à long terme rémunérées",
+          "Dettes bancaires à long terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2401",
+      "name": {
+        "de": "Hypothek A",
+        "fr": "Hypothèque A"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Langfristiges Fremdkapital",
+          "Langfristige verzinsliche Verbindlichkeiten",
+          "Bankverbindlichkeiten langfristig"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à long terme",
+          "Dettes à long terme rémunérées",
+          "Dettes bancaires à long terme"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2480",
+      "name": {
+        "de": "Darlehen/Hypothek gegenüber beteiligter Person A",
+        "fr": "Pret e la personne impliquee A"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Langfristiges Fremdkapital",
+          "Langfristige verzinsliche Verbindlichkeiten",
+          "Langfristige verzinsliche Verbindlichkeiten gegenüber Nahestehenden"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à long terme",
+          "Dettes à long terme rémunérées",
+          "Dettes à long terme auprès des parties prenantes et les organes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2500",
+      "name": {
+        "de": "Verbindlichkeiten gegenüber Dritten",
+        "fr": "Autres dettes envers des tiers"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Langfristiges Fremdkapital",
+          "Übrige langfristige Verbindlichkeiten",
+          "Übrige langfristige Verbindlichkeiten gegenüber Dritten (unverzinslich)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à long terme",
+          "Autres dettes à long terme",
+          "Autres dettes à long terme à l'égard de tiers (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2560",
+      "name": {
+        "de": "Verbindlichkeiten gegenüber beteiligter Person A",
+        "fr": "Dettes envers la personne impliquee A"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Langfristiges Fremdkapital",
+          "Übrige langfristige Verbindlichkeiten",
+          "Übrige langfristige Verbindlichkeiten gegenüber Nahestehenden (unverzinslich)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à long terme",
+          "Autres dettes à long terme",
+          "Autres dettes financières à long terme envers les parties prenantes et les organes (sans intérêts)"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2570",
+      "name": {
+        "de": "Verbindlichkeiten gegenüber Vorsorgeeinrichtung",
+        "fr": "Autres dettes envers des institutions de prévoyance professionnelle"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Langfristiges Fremdkapital",
+          "Übrige langfristige Verbindlichkeiten",
+          "Übrige langfristige Verbindlichkeiten gegenüber Vorsorgeeinrichtungen (unverzinslich)"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à long terme",
+          "Autres dettes à long terme",
+          "Autres dettes financières à long terme envers l'organe de révision"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2600",
+      "name": {
+        "de": "Rückstellungen",
+        "fr": "Provisions"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Langfristiges Fremdkapital",
+          "Rückstellungen sowie vom Gesetz vorgesehene ähnliche Positionen"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Dettes à long terme",
+          "Provisions à long termes et provisions légales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2800",
+      "name": {
+        "de": "Aktienkapital",
+        "fr": "Capital-actions"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Grund-, Gesellschafter- oder Stiftungskapital, ggfs. gesondert nach Beteiligungskategorien",
+          "Grundkapital"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Capital social (capital-actions, capital de fondation, capital propre)",
+          "Capital"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2900",
+      "name": {
+        "de": "Agio aus Gründung oder Kapitalerhöhung",
+        "fr": "Agio à la fondation ou lors d'augmentations de capital"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Gesetzliche Kapitalreserve"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Réserves légales issues du capital"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2903",
+      "name": {
+        "de": "Reserven aus Kapitaleinlagen (steuerlich anerkannt)",
+        "fr": "Reserves issues d'apports de capital (fiscalement reconnues)"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Gesetzliche Kapitalreserve"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Réserves légales issues du capital"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2950",
+      "name": {
+        "de": "Gesetzliche Gewinnreserve",
+        "fr": "Réserves légales issues du bénéfice"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Gesetzliche Gewinnreserve"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Réserves légales issues du bénéfice"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2960",
+      "name": {
+        "de": "Freiwillige Gewinnreserven",
+        "fr": "Reserves facultatives de benefices"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Freiwillige Gewinnreserven"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Réserves libres"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2965",
+      "name": {
+        "de": "Eigene Aktien",
+        "fr": "Actions propres"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Freiwillige Gewinnreserven"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Réserves libres"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2970",
+      "name": {
+        "de": "Gewinnvortrag oder Verlustvortrag",
+        "fr": "Bénéfice / perte reporté"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Bilanzgewinn oder Bilanzverlust"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Bénéfice / Perte résultant du bilan"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2971",
+      "name": {
+        "de": "Zwischendividendenausschüttung",
+        "fr": "Distribution de dividendes intermediaires"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Bilanzgewinn oder Bilanzverlust"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Bénéfice / Perte résultant du bilan"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2972",
+      "name": {
+        "de": "Einlage in die gesetzliche Gewinnreserve aus Zwischengewinn",
+        "fr": "Apport e la reserve legale de benefices provenant de benefices intermediaires"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Bilanzgewinn oder Bilanzverlust"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Bénéfice / Perte résultant du bilan"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "2979",
+      "name": {
+        "de": "Jahresgewinn oder Jahresverlust",
+        "fr": "Bénéfice / perte de l'exercice"
+      },
+      "area": "B",
+      "group": {
+        "de": [
+          "Standard",
+          "Passiven",
+          "Passiven",
+          "Eigenkapital (juristische Person)",
+          "Reserven, Eigene Kapitalanteile und Bilanzgewinn oder Bilanzverlust",
+          "Bilanzgewinn oder Bilanzverlust"
+        ],
+        "fr": [
+          "Classification",
+          "Passifs",
+          "Passifs",
+          "Fonds propres (personnes morales)",
+          "Réserves et bénéfice ou perte",
+          "Bénéfice / Perte résultant du bilan"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": false,
+      "hasTax": false
+    },
+    {
+      "nr": "3000",
+      "name": {
+        "de": "Bruttoerlöse",
+        "fr": "Ventes de produits"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Produktionserlöse",
+          "Produktionserlöse Bereich A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Chiffre d'affaires de la production vendue",
+          "Vente de produits fabriqués - Secteur A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3203",
+      "name": {
+        "de": "Bruttoerlös zu Einkaufspreisen",
+        "fr": "Recettes brutes au prix d'achat"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Handelserlöse",
+          "Handelserlöse Bereich A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Ventes de marchandises",
+          "Ventes de marchandises - Secteur A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "3600",
+      "name": {
+        "de": "Übrige Erlösminderungen aus Lieferungen und Leistungen",
+        "fr": "Autres produits de ventes et de prestations"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Übrige Erlöse aus Lieferungen und Leistungen",
+          "Nebenerlöse aus Lieferungen und Leistungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Autres ventes et prestations de services",
+          "Produits annexes résultant de livraisons et de prestations de services"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3700",
+      "name": {
+        "de": "Eigenleistungen",
+        "fr": "Prestations propres"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Eigenleistungen und Eigenverbrauch",
+          "Eigenleistungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Propres prestations et propres consommations",
+          "Prestations propres"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3710",
+      "name": {
+        "de": "Eigenverbrauch",
+        "fr": "Propres consommations"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Eigenleistungen und Eigenverbrauch",
+          "Eigenverbrauch von Erzeugnissen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Propres prestations et propres consommations",
+          "Propres consommations"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3800",
+      "name": {
+        "de": "Skonti",
+        "fr": "Escomptes"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3803",
+      "name": {
+        "de": "Provisionen an Dritte",
+        "fr": "Commissions de tiers"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3805",
+      "name": {
+        "de": "Verluste Forderungen, Veränderung Wertberichtigungen",
+        "fr": "Pertes sur clients, variation du ducroire"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3806",
+      "name": {
+        "de": "Kursdifferenzen",
+        "fr": "Différences de change"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "3807",
+      "name": {
+        "de": "Versandspesen",
+        "fr": "Frais d'expédition"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3809",
+      "name": {
+        "de": "MWST Saldosteuersatz",
+        "fr": "TVA Taux de la dette fiscale nette"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "3810",
+      "name": {
+        "de": "Kredit-/Debitkartenkommission",
+        "fr": "Commissions sur les cartes de credit/debit"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "3860",
+      "name": {
+        "de": "Veränderung der Garantierückstellungen",
+        "fr": "Variation des provisions pour garanties"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "3861",
+      "name": {
+        "de": "Veränderung Rückstellungen Selbstbehalt",
+        "fr": "Variation des provisions Franchise"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Erlösminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Déductions sur ventes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "3900",
+      "name": {
+        "de": "Bestandesänderungen fertige Erzeugnisse",
+        "fr": "Variation des stocks de produits finis"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstl.",
+          "Bestandesänderungen unfertige und fertige Erzeugnisse"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Variation des stocks et des prestations non facturées",
+          "Variation des stocks de produits semi-finis et finis"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3901",
+      "name": {
+        "de": "Bestandesänderungen unfertige Erzeugnisse",
+        "fr": "Variation de stock de produits en cours de fabrication"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstl.",
+          "Bestandesänderungen unfertige und fertige Erzeugnisse"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Variation des stocks et des prestations non facturées",
+          "Variation des stocks de produits semi-finis et finis"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "3940",
+      "name": {
+        "de": "Bestandesänderungen nicht fakturierte Dienstleistungen",
+        "fr": "Variation de la valeur des prestations non facturées"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Ertrag aus Lieferungen und Leistungen",
+          "Bestandesänderungen an unfertigen und fertigen Erzeugnissen sowie an nicht fakturierten Dienstl.",
+          "Bestandesänderungen nicht fakturierte Dienstleistungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Chiffre d'affaires résultant des ventes et des prestations de services",
+          "Variation des stocks et des prestations non facturées",
+          "Variation de la valeur des prestations non facturées"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "4000",
+      "name": {
+        "de": "Materialeinkauf",
+        "fr": "Charges de matériels"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Aufwand für Material, Handelswaren, Dienstleistungen und Energie",
+          "Materialaufwand",
+          "Materialaufwand Produktion Bereich A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de matériel, de marchandises, de prestations de tiers et d'énergie",
+          "Charges de matériel",
+          "Charges de matériel Production - Secteur A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "4005",
+      "name": {
+        "de": "Einkauf von Verpackungsmaterial",
+        "fr": "Achats de matériel d'emballage"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Aufwand für Material, Handelswaren, Dienstleistungen und Energie",
+          "Materialaufwand",
+          "Materialaufwand Produktion Bereich A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de matériel, de marchandises, de prestations de tiers et d'énergie",
+          "Charges de matériel",
+          "Charges de matériel Production - Secteur A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "4060",
+      "name": {
+        "de": "Fremdleistungen",
+        "fr": "Travaux de tiers"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Aufwand für Material, Handelswaren, Dienstleistungen und Energie",
+          "Materialaufwand",
+          "Fremdleistungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de matériel, de marchandises, de prestations de tiers et d'énergie",
+          "Charges de matériel",
+          "Travaux de tiers"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "4700",
+      "name": {
+        "de": "Direkte Einkaufsspesen",
+        "fr": "Frais d'achat directs"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Aufwand für Material, Handelswaren, Dienstleistungen und Energie",
+          "Direkte Einkaufsspesen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de matériel, de marchandises, de prestations de tiers et d'énergie",
+          "Charges directes d'achat"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "4800",
+      "name": {
+        "de": "Einkaufspreisminderungen",
+        "fr": "Déductions obtenues sur charges"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Aufwand für Material, Handelswaren, Dienstleistungen und Energie",
+          "Einkaufspreisminderungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de matériel, de marchandises, de prestations de tiers et d'énergie",
+          "Déductions obtenues sur charges"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "4900",
+      "name": {
+        "de": "Bestandesänderungen Vorräte",
+        "fr": "Variations de stocks"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Aufwand für Material, Handelswaren, Dienstleistungen und Energie",
+          "Bestandesänderungen an eingekauftem Material & eingekauften Handelswaren & Material-/Warenverluste",
+          "Bestandesänderungen Material und Handelswaren"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de matériel, de marchandises, de prestations de tiers et d'énergie",
+          "Variation des stocks, pertes de matières et de marchandise",
+          "Variation des stocks de matières et marchandises"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "4909",
+      "name": {
+        "de": "Veränderung Verbindlichkeiten",
+        "fr": "Variation des dettes"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Aufwand für Material, Handelswaren, Dienstleistungen und Energie",
+          "Bestandesänderungen an eingekauftem Material & eingekauften Handelswaren & Material-/Warenverluste",
+          "Bestandesänderungen Material und Handelswaren"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de matériel, de marchandises, de prestations de tiers et d'énergie",
+          "Variation des stocks, pertes de matières et de marchandise",
+          "Variation des stocks de matières et marchandises"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5000",
+      "name": {
+        "de": "Löhne",
+        "fr": "Salaires"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Personalaufwand Produktion",
+          "Lohnaufwand Produktion Bereich A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges de personnel Production",
+          "Charges salariales Production - Secteur A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5001",
+      "name": {
+        "de": "Löhne Aktionäre",
+        "fr": "Salaires Actionnaires"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Personalaufwand Produktion",
+          "Lohnaufwand Produktion Bereich A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges de personnel Production",
+          "Charges salariales Production - Secteur A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5003",
+      "name": {
+        "de": "Provisionen Mitarbeiter",
+        "fr": "Commissions des employes"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Personalaufwand Produktion",
+          "Lohnaufwand Produktion Bereich A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges de personnel Production",
+          "Charges salariales Production - Secteur A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5005",
+      "name": {
+        "de": "Leistungen von Sozialversicherungen",
+        "fr": "Prestations des assurances sociales"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Personalaufwand Produktion",
+          "Lohnaufwand Produktion Bereich A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges de personnel Production",
+          "Charges salariales Production - Secteur A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5700",
+      "name": {
+        "de": "AHV, IV, EO, ALV",
+        "fr": "AVS, AI, APG, AC"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Sozialversicherungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges sociales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5701",
+      "name": {
+        "de": "AHV, IV, EO Inhaber",
+        "fr": "AHV, IV, EO Inhaber"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Sozialversicherungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges sociales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5720",
+      "name": {
+        "de": "Vorsorgeeinrichtungen",
+        "fr": "Prévoyance professionnelle"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Sozialversicherungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges sociales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5730",
+      "name": {
+        "de": "Unfallversicherung",
+        "fr": "Assurance-accidents"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Sozialversicherungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges sociales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5740",
+      "name": {
+        "de": "Krankentaggeldversicherung",
+        "fr": "Assurance maladie (Indemnité Journalière Maladie)"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Sozialversicherungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges sociales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5790",
+      "name": {
+        "de": "Quellensteuer",
+        "fr": "Impôts à la source"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Sozialversicherungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Charges sociales"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5800",
+      "name": {
+        "de": "Personalbeschaffung",
+        "fr": "Recherche de personnel"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Übriger Personalaufwand",
+          "Personalbeschaffung"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Autres charges de personnel",
+          "Recherche de personnel"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "5810",
+      "name": {
+        "de": "Weiterbildung",
+        "fr": "Formation continue"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Übriger Personalaufwand",
+          "Aus- und Weiterbildung"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Autres charges de personnel",
+          "Formation et formation continue"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "5820",
+      "name": {
+        "de": "Reisespesen",
+        "fr": "Frais de voyages"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Übriger Personalaufwand",
+          "Spesenentschädigung effektiv"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Autres charges de personnel",
+          "Idemnités effectives"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "5830",
+      "name": {
+        "de": "Pauschalspesen",
+        "fr": "Indemnités forfaitaires"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Übriger Personalaufwand",
+          "Spesenentschädigung pauschal"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Autres charges de personnel",
+          "Indemnités forfaitaires"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5880",
+      "name": {
+        "de": "Sonstiger Personalaufwand",
+        "fr": "Autres charges de personnel"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Übriger Personalaufwand",
+          "Sonstiger Personalaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Autres charges de personnel",
+          "Autres charges de personnel"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "5900",
+      "name": {
+        "de": "Leistungen Dritter",
+        "fr": "Prestations de tiers"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Personalaufwand",
+          "Leistungen Dritter"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Charges de personnel",
+          "Prestations de tiers/temporaires"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6000",
+      "name": {
+        "de": "Fremdmieten",
+        "fr": "Loyers pour locaux"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Raumaufwand",
+          "Fremdmieten Geschäftslokalitäten"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de locaux",
+          "Loyers pour locaux de tiers"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6040",
+      "name": {
+        "de": "Reinigung, Hilfsmaterial",
+        "fr": "Nettoyage, materiel auxiliaire"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Raumaufwand",
+          "Reinigung"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de locaux",
+          "Nettoyage"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6050",
+      "name": {
+        "de": "Unterhalt Geschäftsräume",
+        "fr": "Charges d'entretien des locaux"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Raumaufwand",
+          "Unterhalt Geschäftsräume"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de locaux",
+          "Charges d'entretien des locaux"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6059",
+      "name": {
+        "de": "Versicherungsleistungen",
+        "fr": "Prestations d'assurance"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Raumaufwand",
+          "Unterhalt Geschäftsräume"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de locaux",
+          "Charges d'entretien des locaux"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6100",
+      "name": {
+        "de": "URE Maschinen und Apparate",
+        "fr": "ERR Machines et appareils de production"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Unterhalt, Reparaturen, Ersatz (URE); Leasing mobile Sachanlagen",
+          "Unterhalt, Reparaturen, Ersatz, Leasing",
+          "URE von Produktionsanlagen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Entretien, réparations, remplacements (ERR); Leasing immobilisations corporelles meubles",
+          "Entretien, réparations, remplacements, lesasing",
+          "ERR installations de production"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6101",
+      "name": {
+        "de": "URE Mobiliar und Einrichtungen",
+        "fr": "ERR Mobilier et installations"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Unterhalt, Reparaturen, Ersatz (URE); Leasing mobile Sachanlagen",
+          "Unterhalt, Reparaturen, Ersatz, Leasing",
+          "URE von Produktionsanlagen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Entretien, réparations, remplacements (ERR); Leasing immobilisations corporelles meubles",
+          "Entretien, réparations, remplacements, lesasing",
+          "ERR installations de production"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6105",
+      "name": {
+        "de": "Leasing mobile Sachanlagen",
+        "fr": "Leasing immobilisations corporelles meubles"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Unterhalt, Reparaturen, Ersatz (URE); Leasing mobile Sachanlagen",
+          "Unterhalt, Reparaturen, Ersatz, Leasing",
+          "URE von Produktionsanlagen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Entretien, réparations, remplacements (ERR); Leasing immobilisations corporelles meubles",
+          "Entretien, réparations, remplacements, lesasing",
+          "ERR installations de production"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6200",
+      "name": {
+        "de": "Unterhalt, Reparaturen Fahrzeuge",
+        "fr": "Entretien, réparations des véhicules"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Fahrzeug- und Transportaufwand",
+          "Fahrzeugaufwand",
+          "Reparaturen, Service, Reinigung"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de véhicules et de transport",
+          "Charges de véhicules",
+          "Réparation, service et nettoyage"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6270",
+      "name": {
+        "de": "Privatanteil Fahrzeugaufwand",
+        "fr": "Parts privées sur charges de véhicules"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Fahrzeug- und Transportaufwand",
+          "Fahrzeugaufwand",
+          "Privatanteile Fahrzeugaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de véhicules et de transport",
+          "Charges de véhicules",
+          "Parts privées sur charges de véhicules"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6300",
+      "name": {
+        "de": "Sachversicherungen",
+        "fr": "Assurances-choses"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Sachversicherungen, Abgaben, Gebühren, Bewilligungen",
+          "Sachversicherungen",
+          "Versicherungsprämien für Elementarschäden, Glasbruch, Einbruchdiebstahl"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Assurances-choses, droits, taxes, autorisations",
+          "Assurances-choses",
+          "Primes d'assurance pour dommages naturels, bris de glace, vols"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6360",
+      "name": {
+        "de": "Abgaben und Gebühren",
+        "fr": "Droits et taxes"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Sachversicherungen, Abgaben, Gebühren, Bewilligungen",
+          "Abgaben, Gebühren, Bewilligungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Assurances-choses, droits, taxes, autorisations",
+          "Droits, taxes et autorisations"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6400",
+      "name": {
+        "de": "Elektrizität, Gas, Wasser",
+        "fr": "Électricité, Gaz, Eau"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Energie- und Entsorgungsaufwand",
+          "Energieaufwand",
+          "Elektrizität"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'énergie et évacuation des déchets",
+          "Charges d'énergie",
+          "Électricité"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6460",
+      "name": {
+        "de": "Entsorgungsaufwand",
+        "fr": "Évacuation des déchets"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Energie- und Entsorgungsaufwand",
+          "Energieaufwand",
+          "Entsorgungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'énergie et évacuation des déchets",
+          "Charges d'énergie",
+          "Évacuation des déchets"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6500",
+      "name": {
+        "de": "Büromaterial",
+        "fr": "Matériel de bureau"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Verwaltungs- und Informatikaufwand",
+          "Verwaltungsaufwand",
+          "Büromaterial, Drucksachen, Fotokopien, Fachliteratur"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'administration et d'informatique",
+          "Charges d'administration",
+          "Matériel de bureau, imprimés, photocopies et littérature spécialisée"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6503",
+      "name": {
+        "de": "Fachliteratur, Zeitungen, Zeitschriften",
+        "fr": "Littérature spécialisée, journaux, magazines"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Verwaltungs- und Informatikaufwand",
+          "Verwaltungsaufwand",
+          "Büromaterial, Drucksachen, Fotokopien, Fachliteratur"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'administration et d'informatique",
+          "Charges d'administration",
+          "Matériel de bureau, imprimés, photocopies et littérature spécialisée"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6510",
+      "name": {
+        "de": "Telefon, Internet, Porti",
+        "fr": "Téléphone, Internet, frais de port"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Verwaltungs- und Informatikaufwand",
+          "Telefon, Internet, Porti"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'administration et d'informatique",
+          "Téléphone, Internet, frais de port"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6520",
+      "name": {
+        "de": "Beiträge",
+        "fr": "Cotisations"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Verwaltungs- und Informatikaufwand",
+          "Telefon, Internet, Porti"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'administration et d'informatique",
+          "Téléphone, Internet, frais de port"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6530",
+      "name": {
+        "de": "Buchführungs- und Beratungsaufwand",
+        "fr": "Honoraires pour fiduciaire et conseil"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Verwaltungs- und Informatikaufwand",
+          "Buchführungs- und Beratungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'administration et d'informatique",
+          "Honoraires pour fiduciaire et conseil"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6531",
+      "name": {
+        "de": "Legal and other consulting fees",
+        "fr": "Frais juridiques et autres frais de conseil"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Verwaltungs- und Informatikaufwand",
+          "Buchführungs- und Beratungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'administration et d'informatique",
+          "Honoraires pour fiduciaire et conseil"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6559",
+      "name": {
+        "de": "Sonstiger Verwaltungsaufwand",
+        "fr": "Autres frais d'administration"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Verwaltungs- und Informatikaufwand",
+          "Übriger Verwaltungsaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'administration et d'informatique",
+          ""
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6570",
+      "name": {
+        "de": "Informatikaufwand",
+        "fr": "Frais informatiques"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Verwaltungs- und Informatikaufwand",
+          "Informatikaufwand",
+          "Leasing und Miete Hard- und Software"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges d'administration et d'informatique",
+          "Frais informatiques",
+          "Leasing et location de matériel et de logiciels"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6600",
+      "name": {
+        "de": "Werbeaufwand",
+        "fr": "Charges de publicité"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Werbeaufwand",
+          "Werbeinserate, elektronische Medien"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de publicité",
+          "Publicité, médias électroniques"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6640",
+      "name": {
+        "de": "Reisespesen, Kundenbetreuung",
+        "fr": "Frais de déplacement, service à la clientèle"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Werbeaufwand",
+          "Reisespesen, Kundenbetreuung"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de publicité",
+          "Frais de déplacement, service à la clientèle"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6690",
+      "name": {
+        "de": "Privatanteile Werbeaufwand",
+        "fr": "Charges de publicité comme prélèvement à titre privé"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Werbeaufwand",
+          "Privatanteile Werbeaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges de publicité",
+          "Charges de publicité comme prélèvements à titre privé"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6740",
+      "name": {
+        "de": "Vorsteuerkorrektur (bei gemischter Verwendung)",
+        "fr": "Correction de l'impôt préalable (lors d'utilisation mixte)"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Sonstiger betrieblicher Aufwand",
+          "Mehrwertsteuerkorrektur"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "",
+          "Correction de la TVA"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6790",
+      "name": {
+        "de": "Sonstiger betrieblicher Aufwand",
+        "fr": "Autres charges d'exploitation"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Sonstiger betrieblicher Aufwand",
+          "Sonstiger betrieblicher Aufwand und Privatanteile"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "",
+          "Autres chrages d'exploitation et les prélèvements à titre privé"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "6791",
+      "name": {
+        "de": "Privatanteile",
+        "fr": "Prélèvements à titre privé"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Sonstiger betrieblicher Aufwand",
+          "Sonstiger betrieblicher Aufwand und Privatanteile"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "",
+          "Autres chrages d'exploitation et les prélèvements à titre privé"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6820",
+      "name": {
+        "de": "Abschreibungen und Wertberichtigungen Maschinen und Apparate",
+        "fr": "Amortissement et ajustement de la valeurs des machines et appareils"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens",
+          "Abschreibungen und Wertberichtigungen mobile Sachanlagen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Amortissement et ajustement de la valeur des immobilisations corporelles",
+          "Amortissement et ajustement de la valeurs des actifs meubles"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6821",
+      "name": {
+        "de": "Abschreibungen und Wertberichtigungen Mobiliar und Einrichtungen",
+        "fr": "Amortissement et ajustement de la valeur du mobilier et des installations"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens",
+          "Abschreibungen und Wertberichtigungen mobile Sachanlagen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Amortissement et ajustement de la valeur des immobilisations corporelles",
+          "Amortissement et ajustement de la valeurs des actifs meubles"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6822",
+      "name": {
+        "de": "Abschreibungen und Wertberichtigungen Büromaschinen, Informatik und Kommunikationstechnologie",
+        "fr": "Amortissement et ajustement de la valeurs des machines de bureau, informatique et système de comm."
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens",
+          "Abschreibungen und Wertberichtigungen mobile Sachanlagen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Amortissement et ajustement de la valeur des immobilisations corporelles",
+          "Amortissement et ajustement de la valeurs des actifs meubles"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6823",
+      "name": {
+        "de": "Abschreibungen und Wertberichtigungen Fahrzeuge",
+        "fr": "Amortissement et ajustement de la valeurs des véhicules"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Abschreibungen und Wertberichtigungen auf Positionen des Anlagevermögens",
+          "Abschreibungen und Wertberichtigungen mobile Sachanlagen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Amortissement et ajustement de la valeur des immobilisations corporelles",
+          "Amortissement et ajustement de la valeurs des actifs meubles"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6900",
+      "name": {
+        "de": "Finanzaufwand",
+        "fr": "Charges financierès"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzaufwand",
+          "Zinsaufwand aus verzinslichen Verbindlichkeiten"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Charges financierès",
+          "Charges d'intérêts pour engagements rémunérés"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6920",
+      "name": {
+        "de": "Zinsaufwand beteiligte Personen",
+        "fr": "Charges d'interets Personnes"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzaufwand",
+          "Zinsaufwand aus verzinslichen Verbindlichkeiten gegenüber Nahestehenden"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Charges financierès",
+          "Charges d'intérêts sur les engagements envers les parties prenantes et les organes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6930",
+      "name": {
+        "de": "Zinsaufwand Darlehen Vorsorgeeinrichtung",
+        "fr": "Charge d'intérêts sur emprunts auprès d'institutions de prévoyance professionnelle"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzaufwand",
+          "Zinsaufwand aus verzinslichen Verbindlichkeiten gegenüber Vorsorgeeinrichtungen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Charges financierès",
+          "Charges d'intérêts sur les engagements envers des institutions de prévoyance professionelle"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6940",
+      "name": {
+        "de": "Übriger Finanzaufwand",
+        "fr": "Autres charges financières"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzaufwand",
+          "Übriger Finanzaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Charges financierès",
+          "Autres charges financières"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6949",
+      "name": {
+        "de": "Währungsverluste",
+        "fr": "Pertes de change"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzaufwand",
+          "Übriger Finanzaufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Charges financierès",
+          "Autres charges financières"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6950",
+      "name": {
+        "de": "Erträge aus Umlaufvermögen",
+        "fr": "Produits financiers des liquidités et des titres"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzertrag",
+          "Erträge aus Umlaufvermögen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Produits financiers",
+          "Produits financiers des liquidités et des titres"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6960",
+      "name": {
+        "de": "Erträge aus Anlagevermögen",
+        "fr": "Produits financiers sur immobilisations financières et participations"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzertrag",
+          "Erträge aus Anlagevermögen"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Produits financiers",
+          "Produits financiers sur immobilisations financières et participations"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6980",
+      "name": {
+        "de": "Erträge beteiligte Personen",
+        "fr": "Revenus Personnes"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzertrag",
+          "Erträge aus Forderungen und Finanzanlagen bei Nahestehenden"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Produits financiers",
+          "Produits financiers des parties prenantes et les organes"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "6999",
+      "name": {
+        "de": "Währungsgewinne",
+        "fr": "Gains de change"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Übriger betrieblicher Aufwand, Abschreibungen und Wertberichtigungen sowie Finanzergebnis",
+          "Finanzaufwand und Finanzertrag",
+          "Finanzertrag",
+          "Übriger Finanzertrag"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Autres charges d'exploitation, amortissements et ajustement de valeur, résultat financier",
+          "Charges et produits financiers",
+          "Produits financiers",
+          "Autres produits financiers"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7500",
+      "name": {
+        "de": "Ertrag betriebliche Liegenschaft",
+        "fr": "Produits des immeubles d'exploitation"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Ertrag betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Produits des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7502",
+      "name": {
+        "de": "Mietzinseinnahmen",
+        "fr": "Loyers des appartements"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Ertrag betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Produits des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7505",
+      "name": {
+        "de": "Mietzinseinnahmen optiert",
+        "fr": "Loyers (imposés par option)"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Ertrag betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Produits des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7508",
+      "name": {
+        "de": "Anteil Heizung, Beleuchtung",
+        "fr": "Participation aux frais de chauffage et d'éclairage"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Ertrag betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Produits des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7509",
+      "name": {
+        "de": "Übriger Liegenschaftsertrag",
+        "fr": "Autres revenus immobiliers"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Ertrag betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Produits des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7510",
+      "name": {
+        "de": "Hypothekarzinsaufwand",
+        "fr": "Intérêts hypothécaires"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Aufwand betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Charges des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7511",
+      "name": {
+        "de": "Liegenschaftsunterhalt",
+        "fr": "Entretien de l'immeuble"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Aufwand betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Charges des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "7512",
+      "name": {
+        "de": "Abgaben, Gebühren, Objektsteuern",
+        "fr": "Droits, taxes, impôts fonciers"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Aufwand betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Charges des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7517",
+      "name": {
+        "de": "Heizung, Beleuchtung, Wasser",
+        "fr": "Chauffage et éclairage et eau"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Aufwand betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Charges des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": true
+    },
+    {
+      "nr": "7518",
+      "name": {
+        "de": "Abschreibungen Liegenschaften",
+        "fr": "Amortissements des biens immobiliers"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Aufwand betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Charges des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "7519",
+      "name": {
+        "de": "Übriger Liegenschaftsaufwand",
+        "fr": "Autres charges immobilieres"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betrieblicher Nebenerfolg",
+          "Erfolg aus betrieblichen Liegenschaften",
+          "Erfolg betriebliche Liegenschaft A",
+          "Aufwand betriebliche Liegenschaft A"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultat des activités annexes d'exploitation",
+          "Résultat d'immeubles",
+          "Produits des immeubles d'exploitation A",
+          "Charges des immeubles d'exploitation A"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "8000",
+      "name": {
+        "de": "Betriebsfremder Aufwand",
+        "fr": "Charges hors exploitation"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betriebsfremder, ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Betriebsfremder Aufwand und betriebsfremder Ertrag",
+          "Betriebsfremder Aufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultats extraordinaires et hors exploitation",
+          "Résultats hors exploitation",
+          "Charges hors exploitation"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "8100",
+      "name": {
+        "de": "Betriebsfremder Ertrag",
+        "fr": "Produits hors exploitation"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betriebsfremder, ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Betriebsfremder Aufwand und betriebsfremder Ertrag",
+          "Betriebsfremder Ertrag"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultats extraordinaires et hors exploitation",
+          "Résultats hors exploitation",
+          "Produits hors exploitation"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "8500",
+      "name": {
+        "de": "Ausserordentlicher, einmaliger oder periodenfremder Aufwand",
+        "fr": "Charges exceptionnelles, non recurrentes ou hors periode"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betriebsfremder, ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Ausserordentlicher Aufwand und Ertrag",
+          "Ausserordentlicher Aufwand"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultats extraordinaires et hors exploitation",
+          "Charges et produits extraordinaires, exceptionnels, uniques ou hors période",
+          "Charges et produits exceptionnels",
+          "Charges exceptionnelles"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "8510",
+      "name": {
+        "de": "Ausserordentlicher, einmaliger oder periodenfremder Ertrag",
+        "fr": "Produits exceptionnels, non recurrents ou hors periode"
+      },
+      "area": "D",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betriebsfremder, ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Ausserordentlicher Aufwand und Ertrag",
+          "Ausserordentlicher Ertrag"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultats extraordinaires et hors exploitation",
+          "Charges et produits extraordinaires, exceptionnels, uniques ou hors période",
+          "Charges et produits exceptionnels",
+          "Produits exceptionnels"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "8514",
+      "name": {
+        "de": "Ausserordentliche Gewinne aus Veräusserung von Anlagevermögen",
+        "fr": "Bénéfices exceptionnels sur aliénations d'actifs immobilisés"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betriebsfremder, ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Ausserordentlicher Aufwand und Ertrag",
+          "Ausserordentlicher Ertrag"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultats extraordinaires et hors exploitation",
+          "Charges et produits extraordinaires, exceptionnels, uniques ou hors période",
+          "Charges et produits exceptionnels",
+          "Produits exceptionnels"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "8900",
+      "name": {
+        "de": "Direkte Steuern",
+        "fr": "Impôts directs"
+      },
+      "area": "C",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Betriebsfremder, ausserordentlicher, einmaliger oder periodenfremder Aufwand und Ertrag",
+          "Direkte Steuern"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Résultats extraordinaires et hors exploitation",
+          "Impôts directs"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    },
+    {
+      "nr": "9200",
+      "name": {
+        "de": "Jahresgewinn oder Jahresverlust",
+        "fr": "Bénéfice ou perte de l'exercice"
+      },
+      "area": "E",
+      "group": {
+        "de": [
+          "Standard",
+          "Erfolgsrechnung",
+          "Abschluss",
+          "Gewinnverwendung"
+        ],
+        "fr": [
+          "Classification",
+          "Compte des résultats",
+          "Clôture",
+          "Utilisation du bénéfice"
+        ]
+      },
+      "currency": "CHF",
+      "isIncome": true,
+      "hasTax": false
+    }
+  ]
+}

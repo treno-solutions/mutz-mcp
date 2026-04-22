@@ -1,3 +1,5 @@
+.DS_Store
+
 # Logs
 logs
 *.log
@@ -82,7 +84,7 @@ out
 .nuxt
 dist
 
-# Belex Gesetzestexte - nicht einchecken!
+# Generated / external data
 data/
 
 # Gatsby files

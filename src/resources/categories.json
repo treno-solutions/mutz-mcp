@@ -1,0 +1,714 @@
+{
+  "1": {
+    "de": "Staat, Volk, Behörden",
+    "fr": "État, peuple, autorités"
+  },
+  "2": {
+    "de": "Zivilrecht, Zivilrechtspflege, Vollstreckung",
+    "fr": "Droit privé, procédure civile, exécution"
+  },
+  "3": {
+    "de": "Strafrecht, Strafrechtspflege, Strafvollzug",
+    "fr": "Droit pénal, procédure pénale, exécution"
+  },
+  "4": {
+    "de": "Kirche, Kultur, Ausbildung und Wissenschaft",
+    "fr": "Église, culture, éducation et sciences"
+  },
+  "5": {
+    "de": "Landesverteidigung, Polizei",
+    "fr": "Défense nationale, police"
+  },
+  "6": {
+    "de": "Finanzen, Regalien",
+    "fr": "Finances, régales"
+  },
+  "7": {
+    "de": "Bauwesen, öffentliche Werke, Energie und Verkehr",
+    "fr": "Constructions, travaux publics, énergie, transports et communications"
+  },
+  "8": {
+    "de": "Gesundheit, Arbeit, soziale Sicherheit",
+    "fr": "Santé, travail, sécurité sociale"
+  },
+  "9": {
+    "de": "Volkswirtschaft",
+    "fr": "Économie"
+  },
+  "10": {
+    "de": "Grundlagen",
+    "fr": "Fondement"
+  },
+  "12": {
+    "de": "Bürgerrecht, Niederlassung, Aufenthalt",
+    "fr": "Droit de cité, établissement, séjour"
+  },
+  "14": {
+    "de": "Politische Rechte",
+    "fr": "Droits politiques"
+  },
+  "15": {
+    "de": "Behörden",
+    "fr": "Autorités"
+  },
+  "16": {
+    "de": "Gerichtsorganisation, Anwälte und Notare",
+    "fr": "Organisation judiciaire, avocats, avocates et notaires"
+  },
+  "17": {
+    "de": "Gemeindewesen",
+    "fr": "Communes"
+  },
+  "21": {
+    "de": "Ergänzungs- und Ausführungserlasse zum ZGB",
+    "fr": "Dispositions complémentaires et d'exécution du Code civil"
+  },
+  "22": {
+    "de": "Ergänzungs- und Ausführungserlasse zum OR",
+    "fr": "Dispositions complémentaires et d'exécution du Code des obligations"
+  },
+  "27": {
+    "de": "Zivilrechtspflege",
+    "fr": "Procédure civile"
+  },
+  "28": {
+    "de": "Schuldbetreibung und Konkurs",
+    "fr": "Poursuite pour dettes et faillite"
+  },
+  "31": {
+    "de": "Strafrecht",
+    "fr": "Droit pénal"
+  },
+  "32": {
+    "de": "Strafverfahren",
+    "fr": "Procédure pénale"
+  },
+  "34": {
+    "de": "Strafvollzug",
+    "fr": "Exécution"
+  },
+  "41": {
+    "de": "Kirche",
+    "fr": "Église"
+  },
+  "42": {
+    "de": "Kultur",
+    "fr": "Culture"
+  },
+  "43": {
+    "de": "Ausbildung und Wissenschaft",
+    "fr": "Éducation et sciences"
+  },
+  "51": {
+    "de": "Militär",
+    "fr": "Défense militaire"
+  },
+  "52": {
+    "de": "Gesamtverteidigung und Katastrophenhilfe",
+    "fr": "Défense générale et secours en cas de catastrophe"
+  },
+  "55": {
+    "de": "Polizei",
+    "fr": "Police"
+  },
+  "62": {
+    "de": "Finanzhaushalt",
+    "fr": "Gestion financière"
+  },
+  "63": {
+    "de": "Finanz- und Lastenausgleich",
+    "fr": "Péréquation financière et compensation des charges"
+  },
+  "64": {
+    "de": "Staatsbeiträge",
+    "fr": "Subventions cantonales"
+  },
+  "66": {
+    "de": "Steuern und Abgaben",
+    "fr": "Impôts et droits"
+  },
+  "68": {
+    "de": "Regalien",
+    "fr": "Régales"
+  },
+  "70": {
+    "de": "Raumplanung",
+    "fr": "Aménagement du territoire"
+  },
+  "71": {
+    "de": "Enteignung",
+    "fr": "Expropriation"
+  },
+  "72": {
+    "de": "Bauwesen",
+    "fr": "Constructions"
+  },
+  "73": {
+    "de": "Öffentliche Werke",
+    "fr": "Travaux publics"
+  },
+  "74": {
+    "de": "Energie",
+    "fr": "Énergie"
+  },
+  "75": {
+    "de": "Wasser",
+    "fr": "Eaux"
+  },
+  "76": {
+    "de": "Verkehr",
+    "fr": "Transports et communications"
+  },
+  "81": {
+    "de": "Gesundheit",
+    "fr": "Santé"
+  },
+  "82": {
+    "de": "Umweltschutz",
+    "fr": "Protection de l'environnement"
+  },
+  "83": {
+    "de": "Arbeit",
+    "fr": "Travail"
+  },
+  "84": {
+    "de": "Sozialversicherung",
+    "fr": "Assurances sociales"
+  },
+  "85": {
+    "de": "Wohnungswesen",
+    "fr": "Habitat"
+  },
+  "86": {
+    "de": "Sozialhilfe",
+    "fr": "Aide sociale"
+  },
+  "87": {
+    "de": "Schutz gegen Feuer- und Elementarschäden",
+    "fr": "Protection contre les incendies et les dommages dus aux éléments"
+  },
+  "90": {
+    "de": "Wirtschaftliche Entwicklung",
+    "fr": "Développement général de l'économie"
+  },
+  "91": {
+    "de": "Landwirtschaft",
+    "fr": "Agriculture"
+  },
+  "92": {
+    "de": "Forstwesen, Jagd, Fischerei",
+    "fr": "Forêts, chasse, pêche"
+  },
+  "93": {
+    "de": "Industrie und Gewerbe",
+    "fr": "Industrie et artisanat"
+  },
+  "94": {
+    "de": "Handel",
+    "fr": "Commerce"
+  },
+  "95": {
+    "de": "Kredit",
+    "fr": "Crédit"
+  },
+  "101": {
+    "de": "Verfassung",
+    "fr": "Constitution"
+  },
+  "102": {
+    "de": "Französischsprachige Minderheiten",
+    "fr": "Minorité francophone"
+  },
+  "103": {
+    "de": "Amtliche Veröffentlichungen",
+    "fr": "Publications officielles"
+  },
+  "105": {
+    "de": "Kantonsgebiet",
+    "fr": "Territoire cantonal"
+  },
+  "107": {
+    "de": "Information der Bevölkerung",
+    "fr": "Information du public"
+  },
+  "108": {
+    "de": "Archivierung",
+    "fr": "Archives"
+  },
+  "109": {
+    "de": "Digitale Verwaltung",
+    "fr": "Administration numérique"
+  },
+  "121": {
+    "de": "Bürgerrecht",
+    "fr": "Droit de cité"
+  },
+  "122": {
+    "de": "Niederlassung und Aufenthalt",
+    "fr": "Établissement et séjour"
+  },
+  "123": {
+    "de": "Ausweisschriften",
+    "fr": "Papiers d'identité"
+  },
+  "124": {
+    "de": "Integration der ausländischen Bevölkerung",
+    "fr": "Intégration de la population étrangère"
+  },
+  "141": {
+    "de": "Wahlen und Abstimmungen",
+    "fr": "Élections et votations"
+  },
+  "151": {
+    "de": "Grosser Rat",
+    "fr": "Grand Conseil"
+  },
+  "152": {
+    "de": "Regierungsrat und Verwaltung",
+    "fr": "Conseil-exécutif et administration"
+  },
+  "153": {
+    "de": "Dienstrecht",
+    "fr": "Fonction publique"
+  },
+  "154": {
+    "de": "Gebühren, Mehrwertsteuer",
+    "fr": "Émoluments, taxe sur la valeur ajoutée"
+  },
+  "155": {
+    "de": "Verwaltungsverfahren und Verwaltungsrechtspflege",
+    "fr": "Procédure administrative et justice administrative"
+  },
+  "161": {
+    "de": "Allgemeine Gerichtsorganisation",
+    "fr": "Organisation judiciaire générale"
+  },
+  "162": {
+    "de": "Gerichtsbehörden",
+    "fr": "Autorités judiciaires"
+  },
+  "163": {
+    "de": "Regionalgerichte",
+    "fr": "Tribunaux régionaux"
+  },
+  "164": {
+    "de": "Schlichtungsbehörden",
+    "fr": "Autorités régionales de conciliation"
+  },
+  "166": {
+    "de": "Taggelder und Entschädigungen",
+    "fr": "Indemnités journalières et de déplacement"
+  },
+  "168": {
+    "de": "Anwältinnen und Anwälte (Fürsprecherinnen und Fürsprecher)",
+    "fr": "Avocats, avocates"
+  },
+  "169": {
+    "de": "Notare",
+    "fr": "Notaires"
+  },
+  "170": {
+    "de": "Allgemeine Bestimmungen",
+    "fr": "Dispositions fondamentales"
+  },
+  "173": {
+    "de": "Internationale Zusammenarbeit",
+    "fr": "Collaboration internationale"
+  },
+  "211": {
+    "de": "Einführungsgesetz",
+    "fr": "Loi introductive"
+  },
+  "212": {
+    "de": "Personenrecht",
+    "fr": "Droit des personnes"
+  },
+  "213": {
+    "de": "Familienrecht",
+    "fr": "Droit de la famille"
+  },
+  "214": {
+    "de": "Erbrecht",
+    "fr": "Droit successoral"
+  },
+  "215": {
+    "de": "Sachenrecht",
+    "fr": "Droits réels"
+  },
+  "222": {
+    "de": "Einzelne Vertragsverhältnisse",
+    "fr": "Contrats"
+  },
+  "224": {
+    "de": "Handelsregister",
+    "fr": "Registre du commerce"
+  },
+  "271": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "281": {
+    "de": "Einführungsgesetz",
+    "fr": "Loi introductive"
+  },
+  "282": {
+    "de": "Organisation",
+    "fr": "Organisation"
+  },
+  "284": {
+    "de": "Besondere Verfahren",
+    "fr": "Procédures spéciales"
+  },
+  "321": {
+    "de": "Im Allgemeinen",
+    "fr": "Dispositions générales"
+  },
+  "322": {
+    "de": "Informatik in der Strafjustiz",
+    "fr": "Informatique dans justice pénale"
+  },
+  "324": {
+    "de": "Ordnungsbussen",
+    "fr": "Amendes d'ordre"
+  },
+  "326": {
+    "de": "Opferhilfe",
+    "fr": "Aide aux victimes"
+  },
+  "341": {
+    "de": "Im Allgemeinen",
+    "fr": "Dispositions générales"
+  },
+  "349": {
+    "de": "Interkantonale Vereinbarungen",
+    "fr": "Conventions intercantonales"
+  },
+  "410": {
+    "de": "Organisation",
+    "fr": "Organisation"
+  },
+  "411": {
+    "de": "Kirchgemeinden",
+    "fr": "Paroisses"
+  },
+  "412": {
+    "de": "Pfarrstellen",
+    "fr": "Ministères religieux"
+  },
+  "414": {
+    "de": "Geistliche",
+    "fr": "Ecclésiastiques"
+  },
+  "415": {
+    "de": "Kirchensteuer",
+    "fr": "Impôts paroissiaux"
+  },
+  "421": {
+    "de": "Dokumentation",
+    "fr": "Documentation"
+  },
+  "423": {
+    "de": "Kulturförderung",
+    "fr": "Encouragement des activités culturelles"
+  },
+  "426": {
+    "de": "Natur- und Heimatschutz",
+    "fr": "Protection de la nature et du paysage"
+  },
+  "430": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "431": {
+    "de": "Erziehungsberatung",
+    "fr": "Orientation en matière d'éducation"
+  },
+  "432": {
+    "de": "Volksschule",
+    "fr": "Ecole obligatoire"
+  },
+  "433": {
+    "de": "Mittelschulen, Fachmittelschulen, Diplommittelschulen",
+    "fr": "École moyenne, école de maturité spécialisée, école du degré diplôme"
+  },
+  "435": {
+    "de": "Berufsbildung, Weiterbildung, Berufsberatung",
+    "fr": "Formation professionnelle, formation continue et orientation professionnelle"
+  },
+  "436": {
+    "de": "Universität",
+    "fr": "Université"
+  },
+  "437": {
+    "de": "Turnen und Sport",
+    "fr": "Gymnastique et sport"
+  },
+  "438": {
+    "de": "Staatsbeiträge, Ausbildungsbeiträge, Stiftungen",
+    "fr": "Subventions de l'État, subsides de formation et fondations"
+  },
+  "439": {
+    "de": "Interkantonale Vereinbarungen",
+    "fr": "Conventions intercantonales"
+  },
+  "515": {
+    "de": "Angehörige der Armee",
+    "fr": "Militaires"
+  },
+  "521": {
+    "de": "Bevölkerungsschutz",
+    "fr": "Protection de la population"
+  },
+  "522": {
+    "de": "Zivilschutz",
+    "fr": "Protection civile"
+  },
+  "525": {
+    "de": "Finanzierung",
+    "fr": "Financement"
+  },
+  "551": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "555": {
+    "de": "Ruhetagspolizei",
+    "fr": "Repos dominical et jours fériés"
+  },
+  "559": {
+    "de": "Interkantonale Vereinbarungen",
+    "fr": "Conventions intercantonales"
+  },
+  "622": {
+    "de": "Finanzkontrolle",
+    "fr": "Contrôle des finances"
+  },
+  "632": {
+    "de": "Lastenausgleich",
+    "fr": "Compensation des charges"
+  },
+  "661": {
+    "de": "Direkte Kantons- und Gemeindesteuern",
+    "fr": "Impôts directs du canton et des communes"
+  },
+  "662": {
+    "de": "Erbschafts- und Schenkungssteuer",
+    "fr": "Impôts sur les successions et donations"
+  },
+  "668": {
+    "de": "Vollzug von Bundessteuern und -abgaben",
+    "fr": "Exécution des droits et impôts fédéraux"
+  },
+  "669": {
+    "de": "Steuerabkommen, Doppelbesteuerung",
+    "fr": "Arrangements fiscaux et double imposition"
+  },
+  "682": {
+    "de": "Salzregal",
+    "fr": "Régale des sels"
+  },
+  "704": {
+    "de": "See- und Flussufer",
+    "fr": "Rives des lacs et des rivières"
+  },
+  "706": {
+    "de": "Finanzierung",
+    "fr": "Financement"
+  },
+  "731": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "732": {
+    "de": "Verkehrswege",
+    "fr": "Routes et autres voies de transport et communication"
+  },
+  "741": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "751": {
+    "de": "Wasserbau",
+    "fr": "Police des eaux"
+  },
+  "752": {
+    "de": "Wasserwirtschaft",
+    "fr": "Économie hydraulique"
+  },
+  "761": {
+    "de": "Strassenverkehr",
+    "fr": "Circulation routière"
+  },
+  "762": {
+    "de": "Öffentlicher Verkehr",
+    "fr": "Transports publics"
+  },
+  "763": {
+    "de": "Seilbahnen und Skilifte",
+    "fr": "Funiculaires et téléskis"
+  },
+  "764": {
+    "de": "Personentransporte",
+    "fr": "Transport de personnes"
+  },
+  "766": {
+    "de": "Rohrleitungsanlagen",
+    "fr": "Installations de transport par conduites"
+  },
+  "767": {
+    "de": "Schifffahrt",
+    "fr": "Navigation"
+  },
+  "768": {
+    "de": "Luftfahrt",
+    "fr": "Aviation"
+  },
+  "811": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "812": {
+    "de": "Spitalwesen",
+    "fr": "Hôpitaux"
+  },
+  "813": {
+    "de": "Heilmittel, Betäubungsmittel, Chemikalien",
+    "fr": "Substances thérapeutiques, stupéfiants et produits chimiques"
+  },
+  "815": {
+    "de": "Krankheitsbekämpfung",
+    "fr": "Lutte contre les maladies"
+  },
+  "817": {
+    "de": "Lebensmittel",
+    "fr": "Denrées alimentaires"
+  },
+  "820": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "821": {
+    "de": "Gewässerschutz, Kanalisation, Abfallbeseitigung",
+    "fr": "Protection des eaux, canalisation, élimination des déchets"
+  },
+  "822": {
+    "de": "Abfallbeseitigung",
+    "fr": "Élimination des déchets"
+  },
+  "823": {
+    "de": "Reinhaltung der Luft",
+    "fr": "Salubrité de l'air"
+  },
+  "824": {
+    "de": "Lärmbekämpfung",
+    "fr": "Lutte contre le bruit"
+  },
+  "832": {
+    "de": "Arbeitnehmerschutz",
+    "fr": "Protection des travailleurs"
+  },
+  "833": {
+    "de": "Arbeitsrechtliche Streitigkeiten",
+    "fr": "Litiges"
+  },
+  "836": {
+    "de": "Arbeitsmarkt",
+    "fr": "Marché du travail"
+  },
+  "841": {
+    "de": "Alters-, Hinterlassenen- und Invalidenversicherung",
+    "fr": "Assurance-vieillesse et survivants, assurance-invalidité"
+  },
+  "842": {
+    "de": "Kranken- und Unfallversicherung",
+    "fr": "Assurance en cas de maladie et d'accidents"
+  },
+  "854": {
+    "de": "Verbesserung des Wohnungsangebotes",
+    "fr": "Amélioration de l'offre de logements"
+  },
+  "860": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "861": {
+    "de": "Sozialhilfe im Asyl- und Flüchtlingsbereich",
+    "fr": "Aide sociale dans le domaine de l’asile et des réfugiés"
+  },
+  "862": {
+    "de": "Heime und andere Fürsorgeeinrichtungen",
+    "fr": "Homes et institutions de prévoyance et d'aide sociale"
+  },
+  "871": {
+    "de": "Feuerverhütung",
+    "fr": "Prévention des incendies"
+  },
+  "873": {
+    "de": "Versicherung",
+    "fr": "Assurance"
+  },
+  "901": {
+    "de": "Im Allgemeinen",
+    "fr": "En général"
+  },
+  "902": {
+    "de": "In den Berggebieten",
+    "fr": "Dans les régions de montagne"
+  },
+  "910": {
+    "de": "Förderung im Allgemeinen",
+    "fr": "Développement général"
+  },
+  "913": {
+    "de": "Boden- und Waldverbesserung",
+    "fr": "Améliorations foncières et forestières"
+  },
+  "915": {
+    "de": "Landwirtschaftliche Berufsbildung",
+    "fr": "Formation agricole"
+  },
+  "916": {
+    "de": "Produktion und Absatz",
+    "fr": "Production et vente"
+  },
+  "921": {
+    "de": "Forstwesen",
+    "fr": "Forêts"
+  },
+  "922": {
+    "de": "Jagd- und Wildtierschutz",
+    "fr": "Chasse, protection de la faune sauvage"
+  },
+  "923": {
+    "de": "Fischerei",
+    "fr": "Pêche"
+  },
+  "930": {
+    "de": "Allgemeines",
+    "fr": "Dispositions générales"
+  },
+  "931": {
+    "de": "Bergbau",
+    "fr": "Mines"
+  },
+  "935": {
+    "de": "Dienstleistungsgewerbe",
+    "fr": "Services"
+  },
+  "941": {
+    "de": "Mass und Gewicht",
+    "fr": "Poids et mesures"
+  },
+  "943": {
+    "de": "Ausübung des Handels",
+    "fr": "Exercice du commerce"
+  },
+  "945": {
+    "de": "Interkantonale Vereinbarungen",
+    "fr": "Conventions intercantonales"
+  },
+  "951": {
+    "de": "Kreditinstitute des öffentlichen Rechts",
+    "fr": "Instituts de crédit de droit public"
+  }
+}

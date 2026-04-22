@@ -84,10 +84,23 @@ interface SearchResult {
   line: number;
 }
 
+function extractSystematicNumber(filePath: string): string {
+  const rel = relative(config.dataDir, filePath);
+  const parts = rel.split(sep);
+  const fileName = parts.length >= 2 ? parts[parts.length - 1] : parts[0];
+  return fileName.replace(/\.md$/, "").split("-")[0] ?? "";
+}
+
+export function getSystematicPrefix(sysNum: string): string {
+  const match = sysNum.match(/^(\d+)/);
+  return match ? match[1] : "";
+}
+
 export async function searchInLaws(
   query: string,
   lang?: string,
   limit = 10,
+  category?: string,
 ): Promise<SearchResult[]> {
   const entries = await discoverLawFiles();
   const lowerQuery = query.toLowerCase();
@@ -99,6 +112,14 @@ export async function searchInLaws(
       const langPrefix = `${lang}${sep}`;
       const langPrefixFwd = `${lang}/`;
       if (!relPath.startsWith(langPrefix) && !relPath.startsWith(langPrefixFwd)) {
+        continue;
+      }
+    }
+
+    if (category) {
+      const sysNum = extractSystematicNumber(entry.path);
+      const prefix = getSystematicPrefix(sysNum);
+      if (!prefix.startsWith(category)) {
         continue;
       }
     }
